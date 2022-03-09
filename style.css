@@ -1,0 +1,32 @@
+/* Reset */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  /* bg color */
+  --dark-clr: #1f2937;
+  --light-clr: #fff;
+
+  --grey--clr: #e5e7eb;
+  /* text color */
+  --header-text-clr: #f9faf8;
+  --heder-logo-clr: #f9faf8;
+  --secondary-text-clr: #e5e7eb;
+  --btn-clr: #3882f6;
+  --info-header-clr: #1f2937;
+  /* font size */
+  --header-text-size: 48px;
+  --header-logo-size: 24px;
+  --secondary-text-size: 18px;
+  --info-text-size: 36px;
+  /* font weight */
+  --fw-bold: 700;
+  --fw-extra-bold: 800;
+  --fw-light: 300;
+  /* font style */
+  --fs-italic: italic;
+}
