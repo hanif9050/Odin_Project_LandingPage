@@ -42,6 +42,9 @@ img {
   --fs-italic: italic;
 }
 /* font-family: 'Roboto', sans-serif; */
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Roboto", sans-serif;
   font-weight: var(--fw-light);
@@ -65,7 +68,10 @@ body {
   justify-content: space-between;
   margin-bottom: 30px;
 }
-
+.logo-img {
+  width: 50px;
+  border-radius: 20px;
+}
 .nav-links {
   display: flex;
   gap: 20px;
@@ -115,9 +121,14 @@ body {
 .info {
 }
 .info-img {
+  display: block;
   width: 100%;
   border: 2px solid var(--btn-clr);
   border-radius: 15px;
+  transition: all 0.5s;
+}
+.info-img:hover {
+  transform: scale(1.2);
 }
 .info figcaption {
   font-size: 18px;
@@ -163,4 +174,10 @@ body {
   padding: 10px 40px;
   display: inline-block;
   border-radius: 5px;
+}
+
+footer {
+  background-color: var(--dark-clr);
+  text-align: center;
+  padding: 40px 0;
 }
