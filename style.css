@@ -174,8 +174,13 @@ body {
   padding: 10px 40px;
   display: inline-block;
   border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.05s;
 }
-
+.container-sign-up button:hover {
+  background-color: #e5e7eb;
+  color: #1f2937;
+}
 footer {
   background-color: var(--dark-clr);
   text-align: center;
